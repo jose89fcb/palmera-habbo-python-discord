@@ -62,11 +62,11 @@ async def palmera(ctx, *, keko):
     img2 = img1.copy()
     
     
-    trozo = Image.open(r"imagenes/trozo.png").convert("RGBA") #imagen del trozo
-    img1 = trozo.resize((10,14), Image.ANTIALIAS)#tamaño de la trozo
+    trozo = Image.open(r"imagenes/trozo.png").convert("RGBA") #imagen del trozo de silla
+    img1 = trozo.resize((10,14), Image.ANTIALIAS)#tamaño del trozo
 
     palmera = Image.open(r"imagenes/palmera.png").convert("RGBA") #imagen de la palmera
-    img1 = palmera.resize((100,160), Image.ANTIALIAS)#tamaño de la hoja
+    img1 = palmera.resize((100,160), Image.ANTIALIAS)#tamaño de la silla palmera
 
     ##
    
